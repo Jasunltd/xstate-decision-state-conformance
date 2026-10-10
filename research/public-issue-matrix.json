@@ -1,0 +1,77 @@
+{
+  "schema": "xstate-dsi.public-issue-matrix/v1",
+  "observed": "2026-10-04",
+  "runtimes": {
+    "stable": "5.33.2",
+    "historical": [
+      "5.18.1",
+      "5.19.2"
+    ],
+    "forward": "6.0.0-alpha.64"
+  },
+  "cases": [
+    {
+      "issue": 5178,
+      "url": "https://github.com/statelyai/xstate/issues/5178",
+      "class": "history-continuation",
+      "historical": {
+        "version": "5.19.2",
+        "outcome": "reproduced"
+      },
+      "stable": {
+        "version": "5.33.2",
+        "outcome": "fixed-in-observed-repro"
+      },
+      "rawPersistedDeepDiff": "miss",
+      "hydrationDsi": "miss",
+      "boundedContinuation": "hit"
+    },
+    {
+      "issue": 5077,
+      "url": "https://github.com/statelyai/xstate/issues/5077",
+      "class": "repersistence-closure",
+      "historical": {
+        "version": "5.18.1",
+        "outcome": "reproduced"
+      },
+      "stable": {
+        "version": "5.33.2",
+        "outcome": "reproduced"
+      },
+      "repersistence": "hit"
+    },
+    {
+      "issue": 4873,
+      "url": "https://github.com/statelyai/xstate/issues/4873",
+      "class": "restored-system-actor-usability",
+      "stable": {
+        "version": "5.33.2",
+        "outcome": "reproduced"
+      },
+      "boundedContinuation": "hit"
+    },
+    {
+      "issue": 5331,
+      "url": "https://github.com/statelyai/xstate/issues/5331",
+      "class": "delayed-transition-obligation",
+      "stable": {
+        "version": "5.33.2",
+        "outcome": "reproduced"
+      },
+      "rawPersistedDeepDiff": "miss",
+      "visibleState": "miss",
+      "hydrationDsi": "hit"
+    },
+    {
+      "control": "v6-logical-timer",
+      "version": "6.0.0-alpha.64",
+      "outcome": "green",
+      "hydrationDsi": "preserved",
+      "continuation": "full-declared-delay-fires-under-custom-clock"
+    }
+  ],
+  "gate": {
+    "result": "pass",
+    "reason": "multiple independent public failure classes reproduced without issue-specific checker rules; one historical issue distinguished as fixed on current stable; v6 forward control preserves timer obligation"
+  }
+}

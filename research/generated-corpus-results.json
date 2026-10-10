@@ -1,0 +1,3307 @@
+{
+  "schema": "xstate-persistence-benchmark/v1",
+  "observed": "2026-10-04",
+  "seed": 334462,
+  "corpusSize": 120,
+  "corpus": [
+    {
+      "id": "linear-000",
+      "family": "linear",
+      "variant": 0,
+      "depth": 2,
+      "threshold": 4,
+      "delay": 200
+    },
+    {
+      "id": "context-001",
+      "family": "context",
+      "variant": 1,
+      "depth": 4,
+      "threshold": 1,
+      "delay": 220
+    },
+    {
+      "id": "guarded-002",
+      "family": "guarded",
+      "variant": 2,
+      "depth": 5,
+      "threshold": 1,
+      "delay": 110
+    },
+    {
+      "id": "history-003",
+      "family": "history",
+      "variant": 3,
+      "depth": 4,
+      "threshold": 4,
+      "delay": 110
+    },
+    {
+      "id": "timer-004",
+      "family": "timer",
+      "variant": 4,
+      "depth": 2,
+      "threshold": 4,
+      "delay": 160
+    },
+    {
+      "id": "child-005",
+      "family": "child",
+      "variant": 5,
+      "depth": 3,
+      "threshold": 4,
+      "delay": 250
+    },
+    {
+      "id": "linear-006",
+      "family": "linear",
+      "variant": 6,
+      "depth": 2,
+      "threshold": 1,
+      "delay": 250
+    },
+    {
+      "id": "context-007",
+      "family": "context",
+      "variant": 7,
+      "depth": 2,
+      "threshold": 2,
+      "delay": 290
+    },
+    {
+      "id": "guarded-008",
+      "family": "guarded",
+      "variant": 8,
+      "depth": 2,
+      "threshold": 4,
+      "delay": 60
+    },
+    {
+      "id": "history-009",
+      "family": "history",
+      "variant": 9,
+      "depth": 3,
+      "threshold": 4,
+      "delay": 190
+    },
+    {
+      "id": "timer-010",
+      "family": "timer",
+      "variant": 10,
+      "depth": 3,
+      "threshold": 4,
+      "delay": 110
+    },
+    {
+      "id": "child-011",
+      "family": "child",
+      "variant": 11,
+      "depth": 5,
+      "threshold": 1,
+      "delay": 80
+    },
+    {
+      "id": "linear-012",
+      "family": "linear",
+      "variant": 12,
+      "depth": 4,
+      "threshold": 4,
+      "delay": 290
+    },
+    {
+      "id": "context-013",
+      "family": "context",
+      "variant": 13,
+      "depth": 3,
+      "threshold": 2,
+      "delay": 230
+    },
+    {
+      "id": "guarded-014",
+      "family": "guarded",
+      "variant": 14,
+      "depth": 3,
+      "threshold": 4,
+      "delay": 230
+    },
+    {
+      "id": "history-015",
+      "family": "history",
+      "variant": 15,
+      "depth": 5,
+      "threshold": 2,
+      "delay": 80
+    },
+    {
+      "id": "timer-016",
+      "family": "timer",
+      "variant": 16,
+      "depth": 5,
+      "threshold": 4,
+      "delay": 190
+    },
+    {
+      "id": "child-017",
+      "family": "child",
+      "variant": 17,
+      "depth": 5,
+      "threshold": 2,
+      "delay": 240
+    },
+    {
+      "id": "linear-018",
+      "family": "linear",
+      "variant": 18,
+      "depth": 4,
+      "threshold": 1,
+      "delay": 190
+    },
+    {
+      "id": "context-019",
+      "family": "context",
+      "variant": 19,
+      "depth": 4,
+      "threshold": 2,
+      "delay": 210
+    },
+    {
+      "id": "guarded-020",
+      "family": "guarded",
+      "variant": 20,
+      "depth": 5,
+      "threshold": 2,
+      "delay": 230
+    },
+    {
+      "id": "history-021",
+      "family": "history",
+      "variant": 21,
+      "depth": 3,
+      "threshold": 4,
+      "delay": 270
+    },
+    {
+      "id": "timer-022",
+      "family": "timer",
+      "variant": 22,
+      "depth": 3,
+      "threshold": 3,
+      "delay": 180
+    },
+    {
+      "id": "child-023",
+      "family": "child",
+      "variant": 23,
+      "depth": 2,
+      "threshold": 1,
+      "delay": 260
+    },
+    {
+      "id": "linear-024",
+      "family": "linear",
+      "variant": 24,
+      "depth": 4,
+      "threshold": 4,
+      "delay": 240
+    },
+    {
+      "id": "context-025",
+      "family": "context",
+      "variant": 25,
+      "depth": 2,
+      "threshold": 3,
+      "delay": 150
+    },
+    {
+      "id": "guarded-026",
+      "family": "guarded",
+      "variant": 26,
+      "depth": 5,
+      "threshold": 1,
+      "delay": 210
+    },
+    {
+      "id": "history-027",
+      "family": "history",
+      "variant": 27,
+      "depth": 3,
+      "threshold": 2,
+      "delay": 240
+    },
+    {
+      "id": "timer-028",
+      "family": "timer",
+      "variant": 28,
+      "depth": 4,
+      "threshold": 4,
+      "delay": 290
+    },
+    {
+      "id": "child-029",
+      "family": "child",
+      "variant": 29,
+      "depth": 5,
+      "threshold": 2,
+      "delay": 240
+    },
+    {
+      "id": "linear-030",
+      "family": "linear",
+      "variant": 30,
+      "depth": 3,
+      "threshold": 3,
+      "delay": 260
+    },
+    {
+      "id": "context-031",
+      "family": "context",
+      "variant": 31,
+      "depth": 3,
+      "threshold": 1,
+      "delay": 300
+    },
+    {
+      "id": "guarded-032",
+      "family": "guarded",
+      "variant": 32,
+      "depth": 4,
+      "threshold": 3,
+      "delay": 70
+    },
+    {
+      "id": "history-033",
+      "family": "history",
+      "variant": 33,
+      "depth": 2,
+      "threshold": 4,
+      "delay": 110
+    },
+    {
+      "id": "timer-034",
+      "family": "timer",
+      "variant": 34,
+      "depth": 4,
+      "threshold": 3,
+      "delay": 110
+    },
+    {
+      "id": "child-035",
+      "family": "child",
+      "variant": 35,
+      "depth": 4,
+      "threshold": 4,
+      "delay": 120
+    },
+    {
+      "id": "linear-036",
+      "family": "linear",
+      "variant": 36,
+      "depth": 5,
+      "threshold": 3,
+      "delay": 180
+    },
+    {
+      "id": "context-037",
+      "family": "context",
+      "variant": 37,
+      "depth": 5,
+      "threshold": 2,
+      "delay": 80
+    },
+    {
+      "id": "guarded-038",
+      "family": "guarded",
+      "variant": 38,
+      "depth": 4,
+      "threshold": 1,
+      "delay": 230
+    },
+    {
+      "id": "history-039",
+      "family": "history",
+      "variant": 39,
+      "depth": 4,
+      "threshold": 1,
+      "delay": 210
+    },
+    {
+      "id": "timer-040",
+      "family": "timer",
+      "variant": 40,
+      "depth": 4,
+      "threshold": 1,
+      "delay": 190
+    },
+    {
+      "id": "child-041",
+      "family": "child",
+      "variant": 41,
+      "depth": 3,
+      "threshold": 3,
+      "delay": 100
+    },
+    {
+      "id": "linear-042",
+      "family": "linear",
+      "variant": 42,
+      "depth": 2,
+      "threshold": 1,
+      "delay": 130
+    },
+    {
+      "id": "context-043",
+      "family": "context",
+      "variant": 43,
+      "depth": 5,
+      "threshold": 1,
+      "delay": 100
+    },
+    {
+      "id": "guarded-044",
+      "family": "guarded",
+      "variant": 44,
+      "depth": 5,
+      "threshold": 2,
+      "delay": 80
+    },
+    {
+      "id": "history-045",
+      "family": "history",
+      "variant": 45,
+      "depth": 4,
+      "threshold": 2,
+      "delay": 300
+    },
+    {
+      "id": "timer-046",
+      "family": "timer",
+      "variant": 46,
+      "depth": 3,
+      "threshold": 4,
+      "delay": 60
+    },
+    {
+      "id": "child-047",
+      "family": "child",
+      "variant": 47,
+      "depth": 4,
+      "threshold": 4,
+      "delay": 200
+    },
+    {
+      "id": "linear-048",
+      "family": "linear",
+      "variant": 48,
+      "depth": 5,
+      "threshold": 3,
+      "delay": 140
+    },
+    {
+      "id": "context-049",
+      "family": "context",
+      "variant": 49,
+      "depth": 3,
+      "threshold": 1,
+      "delay": 270
+    },
+    {
+      "id": "guarded-050",
+      "family": "guarded",
+      "variant": 50,
+      "depth": 5,
+      "threshold": 2,
+      "delay": 250
+    },
+    {
+      "id": "history-051",
+      "family": "history",
+      "variant": 51,
+      "depth": 4,
+      "threshold": 2,
+      "delay": 280
+    },
+    {
+      "id": "timer-052",
+      "family": "timer",
+      "variant": 52,
+      "depth": 4,
+      "threshold": 1,
+      "delay": 80
+    },
+    {
+      "id": "child-053",
+      "family": "child",
+      "variant": 53,
+      "depth": 3,
+      "threshold": 4,
+      "delay": 240
+    },
+    {
+      "id": "linear-054",
+      "family": "linear",
+      "variant": 54,
+      "depth": 2,
+      "threshold": 1,
+      "delay": 110
+    },
+    {
+      "id": "context-055",
+      "family": "context",
+      "variant": 55,
+      "depth": 2,
+      "threshold": 2,
+      "delay": 270
+    },
+    {
+      "id": "guarded-056",
+      "family": "guarded",
+      "variant": 56,
+      "depth": 5,
+      "threshold": 4,
+      "delay": 60
+    },
+    {
+      "id": "history-057",
+      "family": "history",
+      "variant": 57,
+      "depth": 4,
+      "threshold": 4,
+      "delay": 50
+    },
+    {
+      "id": "timer-058",
+      "family": "timer",
+      "variant": 58,
+      "depth": 3,
+      "threshold": 3,
+      "delay": 260
+    },
+    {
+      "id": "child-059",
+      "family": "child",
+      "variant": 59,
+      "depth": 3,
+      "threshold": 2,
+      "delay": 110
+    },
+    {
+      "id": "linear-060",
+      "family": "linear",
+      "variant": 60,
+      "depth": 4,
+      "threshold": 3,
+      "delay": 260
+    },
+    {
+      "id": "context-061",
+      "family": "context",
+      "variant": 61,
+      "depth": 5,
+      "threshold": 1,
+      "delay": 220
+    },
+    {
+      "id": "guarded-062",
+      "family": "guarded",
+      "variant": 62,
+      "depth": 2,
+      "threshold": 2,
+      "delay": 160
+    },
+    {
+      "id": "history-063",
+      "family": "history",
+      "variant": 63,
+      "depth": 5,
+      "threshold": 2,
+      "delay": 170
+    },
+    {
+      "id": "timer-064",
+      "family": "timer",
+      "variant": 64,
+      "depth": 2,
+      "threshold": 1,
+      "delay": 230
+    },
+    {
+      "id": "child-065",
+      "family": "child",
+      "variant": 65,
+      "depth": 5,
+      "threshold": 3,
+      "delay": 150
+    },
+    {
+      "id": "linear-066",
+      "family": "linear",
+      "variant": 66,
+      "depth": 2,
+      "threshold": 1,
+      "delay": 270
+    },
+    {
+      "id": "context-067",
+      "family": "context",
+      "variant": 67,
+      "depth": 5,
+      "threshold": 1,
+      "delay": 110
+    },
+    {
+      "id": "guarded-068",
+      "family": "guarded",
+      "variant": 68,
+      "depth": 4,
+      "threshold": 2,
+      "delay": 170
+    },
+    {
+      "id": "history-069",
+      "family": "history",
+      "variant": 69,
+      "depth": 2,
+      "threshold": 2,
+      "delay": 80
+    },
+    {
+      "id": "timer-070",
+      "family": "timer",
+      "variant": 70,
+      "depth": 3,
+      "threshold": 3,
+      "delay": 230
+    },
+    {
+      "id": "child-071",
+      "family": "child",
+      "variant": 71,
+      "depth": 3,
+      "threshold": 1,
+      "delay": 110
+    },
+    {
+      "id": "linear-072",
+      "family": "linear",
+      "variant": 72,
+      "depth": 2,
+      "threshold": 2,
+      "delay": 110
+    },
+    {
+      "id": "context-073",
+      "family": "context",
+      "variant": 73,
+      "depth": 5,
+      "threshold": 4,
+      "delay": 170
+    },
+    {
+      "id": "guarded-074",
+      "family": "guarded",
+      "variant": 74,
+      "depth": 2,
+      "threshold": 4,
+      "delay": 100
+    },
+    {
+      "id": "history-075",
+      "family": "history",
+      "variant": 75,
+      "depth": 3,
+      "threshold": 1,
+      "delay": 180
+    },
+    {
+      "id": "timer-076",
+      "family": "timer",
+      "variant": 76,
+      "depth": 2,
+      "threshold": 2,
+      "delay": 180
+    },
+    {
+      "id": "child-077",
+      "family": "child",
+      "variant": 77,
+      "depth": 2,
+      "threshold": 1,
+      "delay": 270
+    },
+    {
+      "id": "linear-078",
+      "family": "linear",
+      "variant": 78,
+      "depth": 2,
+      "threshold": 4,
+      "delay": 210
+    },
+    {
+      "id": "context-079",
+      "family": "context",
+      "variant": 79,
+      "depth": 3,
+      "threshold": 1,
+      "delay": 100
+    },
+    {
+      "id": "guarded-080",
+      "family": "guarded",
+      "variant": 80,
+      "depth": 4,
+      "threshold": 4,
+      "delay": 220
+    },
+    {
+      "id": "history-081",
+      "family": "history",
+      "variant": 81,
+      "depth": 5,
+      "threshold": 3,
+      "delay": 60
+    },
+    {
+      "id": "timer-082",
+      "family": "timer",
+      "variant": 82,
+      "depth": 2,
+      "threshold": 1,
+      "delay": 90
+    },
+    {
+      "id": "child-083",
+      "family": "child",
+      "variant": 83,
+      "depth": 2,
+      "threshold": 4,
+      "delay": 100
+    },
+    {
+      "id": "linear-084",
+      "family": "linear",
+      "variant": 84,
+      "depth": 4,
+      "threshold": 1,
+      "delay": 210
+    },
+    {
+      "id": "context-085",
+      "family": "context",
+      "variant": 85,
+      "depth": 4,
+      "threshold": 1,
+      "delay": 260
+    },
+    {
+      "id": "guarded-086",
+      "family": "guarded",
+      "variant": 86,
+      "depth": 3,
+      "threshold": 2,
+      "delay": 170
+    },
+    {
+      "id": "history-087",
+      "family": "history",
+      "variant": 87,
+      "depth": 2,
+      "threshold": 3,
+      "delay": 60
+    },
+    {
+      "id": "timer-088",
+      "family": "timer",
+      "variant": 88,
+      "depth": 5,
+      "threshold": 3,
+      "delay": 300
+    },
+    {
+      "id": "child-089",
+      "family": "child",
+      "variant": 89,
+      "depth": 5,
+      "threshold": 3,
+      "delay": 100
+    },
+    {
+      "id": "linear-090",
+      "family": "linear",
+      "variant": 90,
+      "depth": 4,
+      "threshold": 2,
+      "delay": 80
+    },
+    {
+      "id": "context-091",
+      "family": "context",
+      "variant": 91,
+      "depth": 5,
+      "threshold": 1,
+      "delay": 280
+    },
+    {
+      "id": "guarded-092",
+      "family": "guarded",
+      "variant": 92,
+      "depth": 2,
+      "threshold": 4,
+      "delay": 300
+    },
+    {
+      "id": "history-093",
+      "family": "history",
+      "variant": 93,
+      "depth": 4,
+      "threshold": 2,
+      "delay": 100
+    },
+    {
+      "id": "timer-094",
+      "family": "timer",
+      "variant": 94,
+      "depth": 4,
+      "threshold": 1,
+      "delay": 170
+    },
+    {
+      "id": "child-095",
+      "family": "child",
+      "variant": 95,
+      "depth": 3,
+      "threshold": 2,
+      "delay": 270
+    },
+    {
+      "id": "linear-096",
+      "family": "linear",
+      "variant": 96,
+      "depth": 3,
+      "threshold": 2,
+      "delay": 130
+    },
+    {
+      "id": "context-097",
+      "family": "context",
+      "variant": 97,
+      "depth": 4,
+      "threshold": 3,
+      "delay": 270
+    },
+    {
+      "id": "guarded-098",
+      "family": "guarded",
+      "variant": 98,
+      "depth": 2,
+      "threshold": 4,
+      "delay": 110
+    },
+    {
+      "id": "history-099",
+      "family": "history",
+      "variant": 99,
+      "depth": 5,
+      "threshold": 2,
+      "delay": 240
+    },
+    {
+      "id": "timer-100",
+      "family": "timer",
+      "variant": 100,
+      "depth": 3,
+      "threshold": 4,
+      "delay": 80
+    },
+    {
+      "id": "child-101",
+      "family": "child",
+      "variant": 101,
+      "depth": 5,
+      "threshold": 2,
+      "delay": 140
+    },
+    {
+      "id": "linear-102",
+      "family": "linear",
+      "variant": 102,
+      "depth": 3,
+      "threshold": 3,
+      "delay": 70
+    },
+    {
+      "id": "context-103",
+      "family": "context",
+      "variant": 103,
+      "depth": 2,
+      "threshold": 2,
+      "delay": 90
+    },
+    {
+      "id": "guarded-104",
+      "family": "guarded",
+      "variant": 104,
+      "depth": 3,
+      "threshold": 4,
+      "delay": 290
+    },
+    {
+      "id": "history-105",
+      "family": "history",
+      "variant": 105,
+      "depth": 4,
+      "threshold": 2,
+      "delay": 270
+    },
+    {
+      "id": "timer-106",
+      "family": "timer",
+      "variant": 106,
+      "depth": 2,
+      "threshold": 2,
+      "delay": 200
+    },
+    {
+      "id": "child-107",
+      "family": "child",
+      "variant": 107,
+      "depth": 4,
+      "threshold": 3,
+      "delay": 90
+    },
+    {
+      "id": "linear-108",
+      "family": "linear",
+      "variant": 108,
+      "depth": 2,
+      "threshold": 4,
+      "delay": 150
+    },
+    {
+      "id": "context-109",
+      "family": "context",
+      "variant": 109,
+      "depth": 2,
+      "threshold": 3,
+      "delay": 260
+    },
+    {
+      "id": "guarded-110",
+      "family": "guarded",
+      "variant": 110,
+      "depth": 4,
+      "threshold": 3,
+      "delay": 300
+    },
+    {
+      "id": "history-111",
+      "family": "history",
+      "variant": 111,
+      "depth": 4,
+      "threshold": 1,
+      "delay": 280
+    },
+    {
+      "id": "timer-112",
+      "family": "timer",
+      "variant": 112,
+      "depth": 3,
+      "threshold": 3,
+      "delay": 50
+    },
+    {
+      "id": "child-113",
+      "family": "child",
+      "variant": 113,
+      "depth": 2,
+      "threshold": 1,
+      "delay": 150
+    },
+    {
+      "id": "linear-114",
+      "family": "linear",
+      "variant": 114,
+      "depth": 4,
+      "threshold": 1,
+      "delay": 200
+    },
+    {
+      "id": "context-115",
+      "family": "context",
+      "variant": 115,
+      "depth": 4,
+      "threshold": 1,
+      "delay": 120
+    },
+    {
+      "id": "guarded-116",
+      "family": "guarded",
+      "variant": 116,
+      "depth": 4,
+      "threshold": 2,
+      "delay": 100
+    },
+    {
+      "id": "history-117",
+      "family": "history",
+      "variant": 117,
+      "depth": 3,
+      "threshold": 1,
+      "delay": 280
+    },
+    {
+      "id": "timer-118",
+      "family": "timer",
+      "variant": 118,
+      "depth": 2,
+      "threshold": 3,
+      "delay": 100
+    },
+    {
+      "id": "child-119",
+      "family": "child",
+      "variant": 119,
+      "depth": 3,
+      "threshold": 3,
+      "delay": 180
+    }
+  ],
+  "runtimeMatrix": [
+    {
+      "runtime": "xstate-5.19.2",
+      "totalCases": 120,
+      "totalCuts": 486,
+      "passingCases": 80,
+      "failingCases": 40,
+      "passingCuts": 446,
+      "failingCuts": 40,
+      "byFamily": {
+        "linear": {
+          "cases": 20,
+          "passingCases": 20,
+          "failingCases": 0,
+          "cuts": 63,
+          "passingCuts": 63,
+          "failingCuts": 0
+        },
+        "context": {
+          "cases": 20,
+          "passingCases": 20,
+          "failingCases": 0,
+          "cuts": 95,
+          "passingCuts": 95,
+          "failingCuts": 0
+        },
+        "guarded": {
+          "cases": 20,
+          "passingCases": 20,
+          "failingCases": 0,
+          "cuts": 95,
+          "passingCuts": 95,
+          "failingCuts": 0
+        },
+        "history": {
+          "cases": 20,
+          "passingCases": 0,
+          "failingCases": 20,
+          "cuts": 113,
+          "passingCuts": 93,
+          "failingCuts": 20
+        },
+        "timer": {
+          "cases": 20,
+          "passingCases": 0,
+          "failingCases": 20,
+          "cuts": 60,
+          "passingCuts": 40,
+          "failingCuts": 20
+        },
+        "child": {
+          "cases": 20,
+          "passingCases": 20,
+          "failingCases": 0,
+          "cuts": 60,
+          "passingCuts": 60,
+          "failingCuts": 0
+        }
+      }
+    },
+    {
+      "runtime": "xstate-5.33.2",
+      "totalCases": 120,
+      "totalCuts": 486,
+      "passingCases": 100,
+      "failingCases": 20,
+      "passingCuts": 466,
+      "failingCuts": 20,
+      "byFamily": {
+        "linear": {
+          "cases": 20,
+          "passingCases": 20,
+          "failingCases": 0,
+          "cuts": 63,
+          "passingCuts": 63,
+          "failingCuts": 0
+        },
+        "context": {
+          "cases": 20,
+          "passingCases": 20,
+          "failingCases": 0,
+          "cuts": 95,
+          "passingCuts": 95,
+          "failingCuts": 0
+        },
+        "guarded": {
+          "cases": 20,
+          "passingCases": 20,
+          "failingCases": 0,
+          "cuts": 95,
+          "passingCuts": 95,
+          "failingCuts": 0
+        },
+        "history": {
+          "cases": 20,
+          "passingCases": 20,
+          "failingCases": 0,
+          "cuts": 113,
+          "passingCuts": 113,
+          "failingCuts": 0
+        },
+        "timer": {
+          "cases": 20,
+          "passingCases": 0,
+          "failingCases": 20,
+          "cuts": 60,
+          "passingCuts": 40,
+          "failingCuts": 20
+        },
+        "child": {
+          "cases": 20,
+          "passingCases": 20,
+          "failingCases": 0,
+          "cuts": 60,
+          "passingCuts": 60,
+          "failingCuts": 0
+        }
+      }
+    },
+    {
+      "runtime": "xstate-6.0.0-alpha.63",
+      "totalCases": 120,
+      "totalCuts": 486,
+      "passingCases": 120,
+      "failingCases": 0,
+      "passingCuts": 486,
+      "failingCuts": 0,
+      "byFamily": {
+        "linear": {
+          "cases": 20,
+          "passingCases": 20,
+          "failingCases": 0,
+          "cuts": 63,
+          "passingCuts": 63,
+          "failingCuts": 0
+        },
+        "context": {
+          "cases": 20,
+          "passingCases": 20,
+          "failingCases": 0,
+          "cuts": 95,
+          "passingCuts": 95,
+          "failingCuts": 0
+        },
+        "guarded": {
+          "cases": 20,
+          "passingCases": 20,
+          "failingCases": 0,
+          "cuts": 95,
+          "passingCuts": 95,
+          "failingCuts": 0
+        },
+        "history": {
+          "cases": 20,
+          "passingCases": 20,
+          "failingCases": 0,
+          "cuts": 113,
+          "passingCuts": 113,
+          "failingCuts": 0
+        },
+        "timer": {
+          "cases": 20,
+          "passingCases": 20,
+          "failingCases": 0,
+          "cuts": 60,
+          "passingCuts": 60,
+          "failingCuts": 0
+        },
+        "child": {
+          "cases": 20,
+          "passingCases": 20,
+          "failingCases": 0,
+          "cuts": 60,
+          "passingCuts": 60,
+          "failingCuts": 0
+        }
+      }
+    },
+    {
+      "runtime": "xstate-6.0.0-alpha.64",
+      "totalCases": 120,
+      "totalCuts": 486,
+      "passingCases": 120,
+      "failingCases": 0,
+      "passingCuts": 486,
+      "failingCuts": 0,
+      "byFamily": {
+        "linear": {
+          "cases": 20,
+          "passingCases": 20,
+          "failingCases": 0,
+          "cuts": 63,
+          "passingCuts": 63,
+          "failingCuts": 0
+        },
+        "context": {
+          "cases": 20,
+          "passingCases": 20,
+          "failingCases": 0,
+          "cuts": 95,
+          "passingCuts": 95,
+          "failingCuts": 0
+        },
+        "guarded": {
+          "cases": 20,
+          "passingCases": 20,
+          "failingCases": 0,
+          "cuts": 95,
+          "passingCuts": 95,
+          "failingCuts": 0
+        },
+        "history": {
+          "cases": 20,
+          "passingCases": 20,
+          "failingCases": 0,
+          "cuts": 113,
+          "passingCuts": 113,
+          "failingCuts": 0
+        },
+        "timer": {
+          "cases": 20,
+          "passingCases": 20,
+          "failingCases": 0,
+          "cuts": 60,
+          "passingCuts": 60,
+          "failingCuts": 0
+        },
+        "child": {
+          "cases": 20,
+          "passingCases": 20,
+          "failingCases": 0,
+          "cuts": 60,
+          "passingCuts": 60,
+          "failingCuts": 0
+        }
+      }
+    }
+  ],
+  "mutations": {
+    "runtime": "xstate-6.0.0-alpha.64",
+    "semanticKilled": 120,
+    "semanticTotal": 120,
+    "noopFalsePositives": 0,
+    "noopTotal": 120,
+    "rawSemanticDetected": 120,
+    "rawSemanticTotal": 120,
+    "rawNoopFalsePositives": 120,
+    "rawNoopTotal": 120,
+    "records": [
+      {
+        "specId": "linear-000",
+        "family": "linear",
+        "mutation": "semantic-linear",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "linear-000",
+        "family": "linear",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "context-001",
+        "family": "context",
+        "mutation": "semantic-context",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "context-001",
+        "family": "context",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "guarded-002",
+        "family": "guarded",
+        "mutation": "semantic-guarded",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "guarded-002",
+        "family": "guarded",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "history-003",
+        "family": "history",
+        "mutation": "semantic-history",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "history-003",
+        "family": "history",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "timer-004",
+        "family": "timer",
+        "mutation": "semantic-timer",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "timer-004",
+        "family": "timer",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "child-005",
+        "family": "child",
+        "mutation": "semantic-child",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "child-005",
+        "family": "child",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "linear-006",
+        "family": "linear",
+        "mutation": "semantic-linear",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "linear-006",
+        "family": "linear",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "context-007",
+        "family": "context",
+        "mutation": "semantic-context",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "context-007",
+        "family": "context",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "guarded-008",
+        "family": "guarded",
+        "mutation": "semantic-guarded",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "guarded-008",
+        "family": "guarded",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "history-009",
+        "family": "history",
+        "mutation": "semantic-history",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "history-009",
+        "family": "history",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "timer-010",
+        "family": "timer",
+        "mutation": "semantic-timer",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "timer-010",
+        "family": "timer",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "child-011",
+        "family": "child",
+        "mutation": "semantic-child",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "child-011",
+        "family": "child",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "linear-012",
+        "family": "linear",
+        "mutation": "semantic-linear",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "linear-012",
+        "family": "linear",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "context-013",
+        "family": "context",
+        "mutation": "semantic-context",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "context-013",
+        "family": "context",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "guarded-014",
+        "family": "guarded",
+        "mutation": "semantic-guarded",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "guarded-014",
+        "family": "guarded",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "history-015",
+        "family": "history",
+        "mutation": "semantic-history",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "history-015",
+        "family": "history",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "timer-016",
+        "family": "timer",
+        "mutation": "semantic-timer",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "timer-016",
+        "family": "timer",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "child-017",
+        "family": "child",
+        "mutation": "semantic-child",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "child-017",
+        "family": "child",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "linear-018",
+        "family": "linear",
+        "mutation": "semantic-linear",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "linear-018",
+        "family": "linear",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "context-019",
+        "family": "context",
+        "mutation": "semantic-context",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "context-019",
+        "family": "context",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "guarded-020",
+        "family": "guarded",
+        "mutation": "semantic-guarded",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "guarded-020",
+        "family": "guarded",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "history-021",
+        "family": "history",
+        "mutation": "semantic-history",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "history-021",
+        "family": "history",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "timer-022",
+        "family": "timer",
+        "mutation": "semantic-timer",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "timer-022",
+        "family": "timer",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "child-023",
+        "family": "child",
+        "mutation": "semantic-child",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "child-023",
+        "family": "child",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "linear-024",
+        "family": "linear",
+        "mutation": "semantic-linear",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "linear-024",
+        "family": "linear",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "context-025",
+        "family": "context",
+        "mutation": "semantic-context",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "context-025",
+        "family": "context",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "guarded-026",
+        "family": "guarded",
+        "mutation": "semantic-guarded",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "guarded-026",
+        "family": "guarded",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "history-027",
+        "family": "history",
+        "mutation": "semantic-history",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "history-027",
+        "family": "history",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "timer-028",
+        "family": "timer",
+        "mutation": "semantic-timer",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "timer-028",
+        "family": "timer",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "child-029",
+        "family": "child",
+        "mutation": "semantic-child",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "child-029",
+        "family": "child",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "linear-030",
+        "family": "linear",
+        "mutation": "semantic-linear",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "linear-030",
+        "family": "linear",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "context-031",
+        "family": "context",
+        "mutation": "semantic-context",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "context-031",
+        "family": "context",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "guarded-032",
+        "family": "guarded",
+        "mutation": "semantic-guarded",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "guarded-032",
+        "family": "guarded",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "history-033",
+        "family": "history",
+        "mutation": "semantic-history",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "history-033",
+        "family": "history",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "timer-034",
+        "family": "timer",
+        "mutation": "semantic-timer",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "timer-034",
+        "family": "timer",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "child-035",
+        "family": "child",
+        "mutation": "semantic-child",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "child-035",
+        "family": "child",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "linear-036",
+        "family": "linear",
+        "mutation": "semantic-linear",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "linear-036",
+        "family": "linear",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "context-037",
+        "family": "context",
+        "mutation": "semantic-context",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "context-037",
+        "family": "context",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "guarded-038",
+        "family": "guarded",
+        "mutation": "semantic-guarded",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "guarded-038",
+        "family": "guarded",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "history-039",
+        "family": "history",
+        "mutation": "semantic-history",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "history-039",
+        "family": "history",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "timer-040",
+        "family": "timer",
+        "mutation": "semantic-timer",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "timer-040",
+        "family": "timer",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "child-041",
+        "family": "child",
+        "mutation": "semantic-child",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "child-041",
+        "family": "child",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "linear-042",
+        "family": "linear",
+        "mutation": "semantic-linear",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "linear-042",
+        "family": "linear",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "context-043",
+        "family": "context",
+        "mutation": "semantic-context",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "context-043",
+        "family": "context",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "guarded-044",
+        "family": "guarded",
+        "mutation": "semantic-guarded",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "guarded-044",
+        "family": "guarded",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "history-045",
+        "family": "history",
+        "mutation": "semantic-history",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "history-045",
+        "family": "history",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "timer-046",
+        "family": "timer",
+        "mutation": "semantic-timer",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "timer-046",
+        "family": "timer",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "child-047",
+        "family": "child",
+        "mutation": "semantic-child",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "child-047",
+        "family": "child",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "linear-048",
+        "family": "linear",
+        "mutation": "semantic-linear",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "linear-048",
+        "family": "linear",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "context-049",
+        "family": "context",
+        "mutation": "semantic-context",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "context-049",
+        "family": "context",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "guarded-050",
+        "family": "guarded",
+        "mutation": "semantic-guarded",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "guarded-050",
+        "family": "guarded",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "history-051",
+        "family": "history",
+        "mutation": "semantic-history",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "history-051",
+        "family": "history",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "timer-052",
+        "family": "timer",
+        "mutation": "semantic-timer",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "timer-052",
+        "family": "timer",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "child-053",
+        "family": "child",
+        "mutation": "semantic-child",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "child-053",
+        "family": "child",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "linear-054",
+        "family": "linear",
+        "mutation": "semantic-linear",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "linear-054",
+        "family": "linear",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "context-055",
+        "family": "context",
+        "mutation": "semantic-context",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "context-055",
+        "family": "context",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "guarded-056",
+        "family": "guarded",
+        "mutation": "semantic-guarded",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "guarded-056",
+        "family": "guarded",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "history-057",
+        "family": "history",
+        "mutation": "semantic-history",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "history-057",
+        "family": "history",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "timer-058",
+        "family": "timer",
+        "mutation": "semantic-timer",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "timer-058",
+        "family": "timer",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "child-059",
+        "family": "child",
+        "mutation": "semantic-child",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "child-059",
+        "family": "child",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "linear-060",
+        "family": "linear",
+        "mutation": "semantic-linear",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "linear-060",
+        "family": "linear",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "context-061",
+        "family": "context",
+        "mutation": "semantic-context",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "context-061",
+        "family": "context",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "guarded-062",
+        "family": "guarded",
+        "mutation": "semantic-guarded",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "guarded-062",
+        "family": "guarded",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "history-063",
+        "family": "history",
+        "mutation": "semantic-history",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "history-063",
+        "family": "history",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "timer-064",
+        "family": "timer",
+        "mutation": "semantic-timer",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "timer-064",
+        "family": "timer",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "child-065",
+        "family": "child",
+        "mutation": "semantic-child",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "child-065",
+        "family": "child",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "linear-066",
+        "family": "linear",
+        "mutation": "semantic-linear",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "linear-066",
+        "family": "linear",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "context-067",
+        "family": "context",
+        "mutation": "semantic-context",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "context-067",
+        "family": "context",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "guarded-068",
+        "family": "guarded",
+        "mutation": "semantic-guarded",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "guarded-068",
+        "family": "guarded",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "history-069",
+        "family": "history",
+        "mutation": "semantic-history",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "history-069",
+        "family": "history",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "timer-070",
+        "family": "timer",
+        "mutation": "semantic-timer",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "timer-070",
+        "family": "timer",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "child-071",
+        "family": "child",
+        "mutation": "semantic-child",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "child-071",
+        "family": "child",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "linear-072",
+        "family": "linear",
+        "mutation": "semantic-linear",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "linear-072",
+        "family": "linear",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "context-073",
+        "family": "context",
+        "mutation": "semantic-context",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "context-073",
+        "family": "context",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "guarded-074",
+        "family": "guarded",
+        "mutation": "semantic-guarded",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "guarded-074",
+        "family": "guarded",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "history-075",
+        "family": "history",
+        "mutation": "semantic-history",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "history-075",
+        "family": "history",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "timer-076",
+        "family": "timer",
+        "mutation": "semantic-timer",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "timer-076",
+        "family": "timer",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "child-077",
+        "family": "child",
+        "mutation": "semantic-child",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "child-077",
+        "family": "child",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "linear-078",
+        "family": "linear",
+        "mutation": "semantic-linear",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "linear-078",
+        "family": "linear",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "context-079",
+        "family": "context",
+        "mutation": "semantic-context",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "context-079",
+        "family": "context",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "guarded-080",
+        "family": "guarded",
+        "mutation": "semantic-guarded",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "guarded-080",
+        "family": "guarded",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "history-081",
+        "family": "history",
+        "mutation": "semantic-history",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "history-081",
+        "family": "history",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "timer-082",
+        "family": "timer",
+        "mutation": "semantic-timer",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "timer-082",
+        "family": "timer",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "child-083",
+        "family": "child",
+        "mutation": "semantic-child",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "child-083",
+        "family": "child",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "linear-084",
+        "family": "linear",
+        "mutation": "semantic-linear",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "linear-084",
+        "family": "linear",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "context-085",
+        "family": "context",
+        "mutation": "semantic-context",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "context-085",
+        "family": "context",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "guarded-086",
+        "family": "guarded",
+        "mutation": "semantic-guarded",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "guarded-086",
+        "family": "guarded",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "history-087",
+        "family": "history",
+        "mutation": "semantic-history",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "history-087",
+        "family": "history",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "timer-088",
+        "family": "timer",
+        "mutation": "semantic-timer",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "timer-088",
+        "family": "timer",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "child-089",
+        "family": "child",
+        "mutation": "semantic-child",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "child-089",
+        "family": "child",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "linear-090",
+        "family": "linear",
+        "mutation": "semantic-linear",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "linear-090",
+        "family": "linear",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "context-091",
+        "family": "context",
+        "mutation": "semantic-context",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "context-091",
+        "family": "context",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "guarded-092",
+        "family": "guarded",
+        "mutation": "semantic-guarded",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "guarded-092",
+        "family": "guarded",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "history-093",
+        "family": "history",
+        "mutation": "semantic-history",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "history-093",
+        "family": "history",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "timer-094",
+        "family": "timer",
+        "mutation": "semantic-timer",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "timer-094",
+        "family": "timer",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "child-095",
+        "family": "child",
+        "mutation": "semantic-child",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "child-095",
+        "family": "child",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "linear-096",
+        "family": "linear",
+        "mutation": "semantic-linear",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "linear-096",
+        "family": "linear",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "context-097",
+        "family": "context",
+        "mutation": "semantic-context",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "context-097",
+        "family": "context",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "guarded-098",
+        "family": "guarded",
+        "mutation": "semantic-guarded",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "guarded-098",
+        "family": "guarded",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "history-099",
+        "family": "history",
+        "mutation": "semantic-history",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "history-099",
+        "family": "history",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "timer-100",
+        "family": "timer",
+        "mutation": "semantic-timer",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "timer-100",
+        "family": "timer",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "child-101",
+        "family": "child",
+        "mutation": "semantic-child",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "child-101",
+        "family": "child",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "linear-102",
+        "family": "linear",
+        "mutation": "semantic-linear",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "linear-102",
+        "family": "linear",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "context-103",
+        "family": "context",
+        "mutation": "semantic-context",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "context-103",
+        "family": "context",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "guarded-104",
+        "family": "guarded",
+        "mutation": "semantic-guarded",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "guarded-104",
+        "family": "guarded",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "history-105",
+        "family": "history",
+        "mutation": "semantic-history",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "history-105",
+        "family": "history",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "timer-106",
+        "family": "timer",
+        "mutation": "semantic-timer",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "timer-106",
+        "family": "timer",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "child-107",
+        "family": "child",
+        "mutation": "semantic-child",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "child-107",
+        "family": "child",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "linear-108",
+        "family": "linear",
+        "mutation": "semantic-linear",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "linear-108",
+        "family": "linear",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "context-109",
+        "family": "context",
+        "mutation": "semantic-context",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "context-109",
+        "family": "context",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "guarded-110",
+        "family": "guarded",
+        "mutation": "semantic-guarded",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "guarded-110",
+        "family": "guarded",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "history-111",
+        "family": "history",
+        "mutation": "semantic-history",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "history-111",
+        "family": "history",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "timer-112",
+        "family": "timer",
+        "mutation": "semantic-timer",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "timer-112",
+        "family": "timer",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "child-113",
+        "family": "child",
+        "mutation": "semantic-child",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "child-113",
+        "family": "child",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "linear-114",
+        "family": "linear",
+        "mutation": "semantic-linear",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "linear-114",
+        "family": "linear",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "context-115",
+        "family": "context",
+        "mutation": "semantic-context",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "context-115",
+        "family": "context",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "guarded-116",
+        "family": "guarded",
+        "mutation": "semantic-guarded",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "guarded-116",
+        "family": "guarded",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "history-117",
+        "family": "history",
+        "mutation": "semantic-history",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "history-117",
+        "family": "history",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "timer-118",
+        "family": "timer",
+        "mutation": "semantic-timer",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "timer-118",
+        "family": "timer",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      },
+      {
+        "specId": "child-119",
+        "family": "child",
+        "mutation": "semantic-child",
+        "semantic": true,
+        "detected": true,
+        "rawDeepDiffDetected": true,
+        "stage": "hydrate"
+      },
+      {
+        "specId": "child-119",
+        "family": "child",
+        "mutation": "representation-noop",
+        "semantic": false,
+        "detected": false,
+        "rawDeepDiffDetected": true
+      }
+    ]
+  },
+  "shrinks": [
+    {
+      "runtime": "xstate-5.19.2",
+      "specId": "history-003",
+      "family": "history",
+      "originalTraceLength": 5,
+      "reducedTraceLength": 3,
+      "reducedTrace": [
+        {
+          "kind": "event",
+          "event": {
+            "type": "NEXT"
+          }
+        },
+        {
+          "kind": "event",
+          "event": {
+            "type": "LEAVE"
+          }
+        },
+        {
+          "kind": "event",
+          "event": {
+            "type": "BACK"
+          }
+        }
+      ],
+      "firstFailingCut": 2,
+      "stage": "continuation"
+    },
+    {
+      "runtime": "xstate-5.33.2",
+      "specId": "timer-004",
+      "family": "timer",
+      "originalTraceLength": 2,
+      "reducedTraceLength": 1,
+      "reducedTrace": [
+        {
+          "kind": "event",
+          "event": {
+            "type": "START"
+          }
+        }
+      ],
+      "firstFailingCut": 1,
+      "stage": "hydrate"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "rootDir": "src",
+    "outDir": "dist"
+  },
+  "include": [
+    "src/canonical.ts",
+    "src/cli.ts",
+    "src/comparators.ts",
+    "src/conformance.ts",
+    "src/counterexample.ts",
+    "src/dsi.ts",
+    "src/index.ts",
+    "src/report.ts"
+  ]
+}

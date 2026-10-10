@@ -1,0 +1,52 @@
+{
+  "name": "xstate-decision-state-conformance",
+  "version": "0.1.0",
+  "description": "Decision-state conformance checks across XState persistence and hydration",
+  "type": "module",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "xstate-dsi-check": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "STATUS.md"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist dist-test",
+    "build": "tsc -p tsconfig.build.json",
+    "build:test": "tsc -p tsconfig.test.json",
+    "check": "tsc -p tsconfig.test.json --noEmit",
+    "test": "npm run clean && npm run build:test && node --test dist-test/test/*.test.js",
+    "example": "npm run clean && npm run build:test && node dist-test/examples/basic.js",
+    "example:timer": "npm run clean && npm run build:test && node dist-test/src/cli.js dist-test/examples/timer-scenario.js",
+    "example:timer:json": "npm run clean && npm run build:test && node dist-test/src/cli.js dist-test/examples/timer-scenario.js --json",
+    "benchmark": "npm run clean && npm run build:test && node dist-test/src/benchmark.js",
+    "prepack": "npm test && npm run build"
+  },
+  "engines": {
+    "node": ">=22 <25",
+    "npm": ">=10 <12"
+  },
+  "peerDependencies": {
+    "xstate": "^5.33.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.9.3",
+    "xstate": "5.33.2",
+    "xstate-v5181": "npm:xstate@5.18.1",
+    "xstate-v5192": "npm:xstate@5.19.2",
+    "xstate-v6": "npm:xstate@6.0.0-alpha.64",
+    "xstate-v6-prev": "npm:xstate@6.0.0-alpha.63"
+  }
+}
