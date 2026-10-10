@@ -19,6 +19,8 @@
   "files": [
     "dist",
     "README.md",
+    "ATTRIBUTION.md",
+    "LICENSE-SCOPE.md",
     "STATUS.md"
   ],
   "scripts": {

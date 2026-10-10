@@ -164,3 +164,10 @@ The bounded research pass is complete: public-issue reproduction, executable com
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+
+## Sources and licensing
+
+- [MIT software license](LICENSE)
+- [License scope and third-party exclusions](LICENSE-SCOPE.md)
+- [Source attribution, upstream licenses, and non-affiliation](ATTRIBUTION.md)
