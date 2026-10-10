@@ -48,5 +48,5 @@ other packages are separate dependencies, not vendored source releases.
 
 This repository is an independent research implementation; it is not
 Stately's or XState's official conformance suite. Names identify
-interoperability and issue sources only. Candidate publication and copyright
-ownership review are still pending.
+interoperability and issue sources only. This is an independently
+published MIT-licensed research tool, not Stately's official conformance suite.
